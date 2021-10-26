@@ -1,7 +1,10 @@
 Reference:
 https://dev.to/sonyarianto/how-to-spin-mongodb-server-with-docker-and-docker-compose-2lef
 https://docs.mongodb.com/manual/tutorial/
-** Mongo stores documents(rows) in collections(table) **
+
+** Mongo stores documents(rows) in collections(table)  
+** MongoDb stores data records as BSON documents. BSON is a binary representation of JSON documents
+- BSON Types
 
 // Run it 
 docker-compose up -d
@@ -15,6 +18,3 @@ mongo mongodb://localhost:27017 -u rootuser -p rootpass
 https://docs.mongodb.com/manual/reference/command/
 show dbs
 db.help()
-
-
-
