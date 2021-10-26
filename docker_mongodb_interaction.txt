@@ -1,0 +1,20 @@
+Reference:
+https://dev.to/sonyarianto/how-to-spin-mongodb-server-with-docker-and-docker-compose-2lef
+https://docs.mongodb.com/manual/tutorial/
+** Mongo stores documents(rows) in collections(table) **
+
+// Run it 
+docker-compose up -d
+// Run a command in a running container
+docker exec -it mongodb bash
+// Connect to mongo
+mongo admin -u rootuser -p rootpass
+mongo mongodb://localhost:27017 -u rootuser -p rootpass
+
+- Commands:
+https://docs.mongodb.com/manual/reference/command/
+show dbs
+db.help()
+
+
+
